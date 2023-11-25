@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <meta name='ocr-system' content='tesseract 5.3.2' />
+  <meta name='ocr-capabilities' content='ocr_page ocr_carea ocr_par ocr_line ocrx_word ocrp_wconf'/>
+ </head>
+ <body>
+  <div class='ocr_page' id='page_1' title='image "/var/folders/pj/y1w4_jks6w14b6m4ddg0tlb00000gn/T/tess_bstgvl4x_input.PNG"; bbox 0 0 3746 945; ppageno 0; scan_res 70 70'>
+   <div class='ocr_photo' id='block_1_1' title="bbox 0 106 3746 722"></div>
+   <div class='ocr_carea' id='block_1_2' title="bbox 57 902 1336 941">
+    <p class='ocr_par' id='par_1_1' lang='tam' title="bbox 57 902 1336 941">
+     <span class='ocr_caption' id='line_1_1' title="bbox 57 902 1336 941; baseline 0 -9; x_size 38; x_descenders 9; x_ascenders 8">
+      <span class='ocrx_word' id='word_1_1' title='bbox 57 904 279 933; x_wconf 78'>8£04084-002</span>
+      <span class='ocrx_word' id='word_1_2' title='bbox 309 904 506 934; x_wconf 80'>24/12/2008</span>
+      <span class='ocrx_word' id='word_1_3' title='bbox 535 904 694 933; x_wconf 0'>61ஈவவர</span>
+      <span class='ocrx_word' id='word_1_4' title='bbox 706 904 843 940; x_wconf 28'>காவி</span>
+      <span class='ocrx_word' id='word_1_5' title='bbox 855 903 896 933; x_wconf 78'>06</span>
+      <span class='ocrx_word' id='word_1_6' title='bbox 909 903 1103 941; x_wconf 0'>8௦ுவ்ள்சை</span>
+      <span class='ocrx_word' id='word_1_7' title='bbox 1142 902 1336 941; x_wconf 0'>ீன்ாவி௨.௦ா௦</span>
+     </span>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>
