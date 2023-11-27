@@ -22,8 +22,8 @@ terms_2 = {
 }
 
 
-input_dir = '/home/ganesh/BADRI/MANUSCRIPTS/data/project_data/processed_images/bg_removed_thres/'
-output_dir = '/home/ganesh/BADRI/MANUSCRIPTS/data/project_data/tesseract_results/bg_removed_thres/'
+input_dir = '/home/ganesh/BADRI/MANUSCRIPTS/data/project_data/processed_images/local_histogram/'
+output_dir = '/home/ganesh/BADRI/MANUSCRIPTS/data/project_data/tesseract_results/local_histogram2/'
 
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
@@ -35,7 +35,8 @@ for file in os.listdir(input_dir):
     lang = file.split('_')[0]
 
     img = cv2.imread(input_dir + file)
-    d = image_to_data(img, output_type=Output.DICT, lang=terms[lang])
+    gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+    d = image_to_data(gray, output_type=Output.DICT, lang=terms[lang])
     data = []
     for i in range(len(d['level'])):
         if d['level'][i]==5:
