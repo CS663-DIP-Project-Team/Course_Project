@@ -73,8 +73,8 @@ def pca_denoising(image_path, output_path, n_components=0.95, threshold=50):
 
 
 # Input and output folders
-input_folder = "/content/images"
-output_folder = "/content/output"
+input_folder = "/home/ganesh/BADRI/MANUSCRIPTS/data/project_data/images"
+output_folder = "/home/ganesh/BADRI/MANUSCRIPTS/data/project_data/pca_denoising"
 
 # Ensure the output folder exists
 os.makedirs(output_folder, exist_ok=True)
