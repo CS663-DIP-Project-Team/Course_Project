@@ -1,2 +1,2 @@
-# project
-MANUSCRIPTS DIGITIZATION
+# Course project
+Digitization of Ancient Indian Manuscripts
